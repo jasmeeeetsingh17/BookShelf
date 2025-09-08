@@ -1,0 +1,22 @@
+<% layout('layouts/boilerplate') %>
+    <style>
+        .all-books {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .all-books li {
+            list-style: disc;
+        }
+    </style>
+    <h1 class="text-center">All the Books in the BookShelf</h1>
+    <ul class="all-books container">
+        <% for( let book of books ) { %>
+            <li>
+                <%= book.name %> : <a href="books/<%= book.id %>"> More Details </a>
+            </li>
+            <% } %>
+    </ul>

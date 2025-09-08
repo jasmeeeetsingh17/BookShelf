@@ -1,0 +1,23 @@
+<% layout('layouts/boilerplate') %>
+    <h1> Add New Book </h1>
+    <form method="post" action="/books">
+        <label for="name"> Name : </label>
+        <input type="text" placeholder="name" name="name" id="name">
+        <label for="qty"> Qty : </label>
+        <input type="number" placeholder="qty" name="qty" id="qty">
+        <label for="categories"> Categories : </label>
+        <select id="categories" name="category">
+            <option name="science">
+                science
+            </option>
+            <option name="fiction">
+                fiction
+            </option>
+            <option name="commedy">
+                commedy
+            </option>
+        </select>
+        <button value="submit"> Submit </button>
+    </form>
+
+    <h1> All Books: <a href="/books"> Click Here</a></h1>

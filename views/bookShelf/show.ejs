@@ -1,0 +1,22 @@
+<% layout('layouts/boilerplate') %>
+    <h1>
+        <%= book.name %>
+    </h1>
+    <ul>
+        <li>
+            <h3>
+                Qty : <%= book.qty %>
+            </h3>
+        </li>
+        <li>
+            <h3>
+                Category : <%= book.category %>
+            </h3>
+        </li>
+    </ul>
+
+    <h2> All Books - <a href="/books"> Click Here </a></h2>
+    <h2> Edit Book - <a href="/books/<%= book.id %>/edit"> Click Here </a></h2>
+    <form method="post" action="/books/<%= book.id %>?_method=DELETE">
+        <button value="Delete"> Delete </button>
+    </form>

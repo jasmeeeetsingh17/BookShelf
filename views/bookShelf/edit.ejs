@@ -1,0 +1,20 @@
+<% layout('layouts/boilerplate') %>
+    <h1>
+        <%= book.name %> Edit Page
+    </h1>
+    <form method="post" action="/books/<%= book.id %>?=PATCH">
+        <label for="name"> Name : </label>
+        <input type="text" placeholder="name" name="name" id="name" value="<%= book.name %>">
+        <label for="qty"> Qty : </label>
+        <input type="number" placeholder="qty" name="qty" id="qty" value="<%= book.qty %>">
+        <label for="categories"> Categories : </label>
+        <select id="category" name="category">
+            <% for (let category of categories) { %>
+                <option value="<%= category %>" <%=book.category===category ? 'selected' : '' %>>
+                    <%= category %>
+                </option>
+                <% } %>
+        </select>
+        <button value="submit"> Submit </button>
+    </form>
+    <h1> Cancel: <a href="/books"> Click Here </a></h1>
