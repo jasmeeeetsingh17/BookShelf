@@ -7,7 +7,6 @@ It lets you manage a collection of books with categories.
 ## 🌟 Features
 
 ### Core Features
-- **User Authentication & Authorization** - Register, login, logout with secure sessions
 - **CRUD Operations** - Create, read, update, delete books
 
 ### Advanced Features
@@ -33,7 +32,6 @@ It lets you manage a collection of books with categories.
 ### Prerequisites
 - Node.js (v14 or higher)
 - MongoDB (local or Atlas)
-- Cloudinary account (for image uploads)
 
 ### 1. Clone the Repository
 ```bash
