@@ -1,6 +1,8 @@
 # 📚 BookShelf App
 
-A comprehensive full-stack web application for managing your personal book collection with advanced features like user authentication, reviews, ratings, image uploads, and more.
+A simple CRUD (Create, Read, Update, Delete) web application built with **Node.js**, **Express**, **MongoDB**, and **EJS** (with [ejs-mate](https://www.npmjs.com/package/ejs-mate) for layouts).  
+It lets you manage a collection of books with categories.
+
 
 ## 🌟 Features
 
