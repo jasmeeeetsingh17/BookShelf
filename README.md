@@ -28,18 +28,6 @@ It lets you manage a collection of books with categories.
 - **Bootstrap 5** - CSS framework
 - **JavaScript** - Client-side interactivity
 
-### Cloud Services
-- **Cloudinary** - Image storage and optimization
-- **MongoDB Atlas** - Cloud database (optional)
-
-### Security & Performance
-- **Helmet.js** - Security headers
-- **express-rate-limit** - Rate limiting
-- **bcryptjs** - Password hashing
-- **express-session** - Session management
-- **connect-mongo** - Session store
-- **compression** - Response compression
-
 ## 🚀 Installation & Setup
 
 ### Prerequisites
