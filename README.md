@@ -1,4 +1,4 @@
-# 📚 Enhanced BookShelf App
+# 📚 BookShelf App
 
 A comprehensive full-stack web application for managing your personal book collection with advanced features like user authentication, reviews, ratings, image uploads, and more.
 
